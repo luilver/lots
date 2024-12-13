@@ -1,5 +1,5 @@
 #!/usr/bin/env ruby
-#
+
 # Legend of the Sourcerer
 # Written by Robert W. Oliver II <robert@cidergrove.com>
 # Copyright (C) 2018 Sourcerer, All Rights Reserved.
@@ -51,7 +51,7 @@ while running
     when "location", "loc", "where", "whereami"
       ui.show_location({:player => player})
     when "look", "what", "around"
-      world.check_area({:player => player, :ui => ui, :story => story})     
+      world.check_area({:player => player, :ui => ui, :story => story})
     when "up", "north", "u", "n"
       unless player.in_combat
         if !player.move({:direction => :up, :world => world, :ui => ui, :story => story})

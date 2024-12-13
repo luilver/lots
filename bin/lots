@@ -1,4 +1,6 @@
 #!/usr/bin/env ruby
 
-Dir.chdir(File.expand_path(File.dirname(__FILE__).to_s + "/.."))
-load "lots.rb"
+# frozen_string_literal: true
+
+Dir.chdir(File.expand_path("#{File.dirname(__FILE__)}/.."))
+load 'lots.rb'

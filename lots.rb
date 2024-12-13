@@ -15,7 +15,7 @@ rescue LoadError
   puts
   puts "Installation Instructions"
   puts "-------------------------"
-  puts 
+  puts
   puts "Debian/Ubuntu Linux:"
   puts "  sudo apt install ruby-colorize"
   puts
